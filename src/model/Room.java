@@ -1,13 +1,15 @@
 package model;
 
+import utils.RoomType;
+
 public class Room {
 
     private int roomNumber;
     private int rows;
     private int cols;
-    private String type; // IMAX, 3D, Standard, VIP, 4DX.
+    private RoomType type; // IMAX, 3D, Standard, VIP, 4DX.
 
-    public Room(int roomNumber, int rows, int cols, String type) {
+    public Room(int roomNumber, int rows, int cols, RoomType type) {
         this.roomNumber = roomNumber;
         this.rows = rows;
         this.cols = cols;
@@ -26,7 +28,7 @@ public class Room {
         return cols;
     }
 
-    public String getType() {
+    public RoomType getType() {
         return type;
     }
 
@@ -42,7 +44,7 @@ public class Room {
         this.cols = cols;
     }
 
-    public void setType(String type) {
+    public void setType(RoomType type) {
         this.type = type;
     }
 
