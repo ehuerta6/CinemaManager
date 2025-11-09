@@ -10,22 +10,18 @@ public class Constants {
     public static final double FOUR_DX_SURCHARGE = 6.0;
 
     // Loyalty Program Constants
-    public static final int LOYALTY_POINTS_PER_DOLLAR = 1;
+    public static final int LOYALTY_POINTS_PER_TICKET = 10;
     public static final int LOYALTY_POINTS_FOR_SILVER = 100;
     public static final int LOYALTY_POINTS_FOR_GOLD = 500;
     public static final int LOYALTY_POINTS_FOR_PLATINUM = 1000;
 
-    // File Constants
-    // Logger File
+    // Logger 
     public static final String LOGGER_FILE = "cinema_manager.txt";
 
-    // CSV Files
+    // CSV 
     public static final String MOVIE_CSV_FILE = "movies.csv";
     public static final String CUSTOMER_CSV_FILE = "customers.csv";
     public static final String EMPLOYEE_CSV_FILE = "employees.csv";
     public static final String ROOM_CSV_FILE = "rooms.csv";
-
-    // Logger Activity Messages
-    public static final String LOGGER_INIT_MESSAGE = "Logger initialized to: ";
 
 }
