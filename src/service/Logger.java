@@ -1,9 +1,12 @@
-package utils;
+package service;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.LocalDateTime;
+
+import utils.Constants;
+import utils.LogLevel;
 
 public class Logger {
 
