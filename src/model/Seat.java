@@ -11,4 +11,29 @@ public class Seat {
         this.number = number;
         this.isAvailable = isAvailable;
     }
+
+    public int getRow() {
+        return row;
+    }
+
+    public void setRow(int row) {
+        this.row = row;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
+    }
+
+    public void setAvailable(boolean isAvailable) {
+        this.isAvailable = isAvailable;
+    }
+
 }

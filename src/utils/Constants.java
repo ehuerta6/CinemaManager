@@ -2,6 +2,9 @@ package utils;
 
 public class Constants {
 
+    public static final String LINES = "--------------------";
+    public static final String SCREEN = "----- SCREEN -----";
+
     // Ticket Pricing Constants
     public static final double BASE_TICKET_PRICE = 10.0;
     public static final double IMAX_SURCHARGE = 5.0;
