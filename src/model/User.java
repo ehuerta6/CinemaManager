@@ -13,7 +13,7 @@ abstract class User {
         this.name = name;
         this.email = email;
         this.password = password;
-        this.balance = 0.0;
+        this.balance = balance;
     }
 
     public int getId() {

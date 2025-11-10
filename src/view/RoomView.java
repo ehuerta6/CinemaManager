@@ -29,10 +29,9 @@ public class RoomView {
         Logger.getInstance().info("All rooms info displayed");
     }
 
-    public void showMoviesInRoom(Room room) {
+    public void showMoviesInRoom(Room room, List<Movie> movies) {
         System.out.println("----- Movies in Room " + room.getRoomNumber() + " -----");
-        List<Movie> movies = room.getMovies();
-        if (movies.isEmpty()) {
+        if (movies == null || movies.isEmpty()) {
             System.out.println("No movies scheduled in this room.");
         } else {
             for (Movie movie : movies) {
