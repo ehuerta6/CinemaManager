@@ -5,13 +5,15 @@ import utils.Constants;
 public class Ticket {
 
     private int ticketId;
-    private Seat seat;
+    private int seatRow;
+    private int seatCol;
     private Movie movie;
     private double price;
 
-    public Ticket(int ticketId, Seat seat, Movie movie) {
+    public Ticket(int ticketId, int seatRow, int seatCol, Movie movie) {
         this.ticketId = ticketId;
-        this.seat = seat;
+        this.seatRow = seatRow;
+        this.seatCol = seatCol;
         this.movie = movie;
         this.price = Constants.BASE_TICKET_PRICE;
     }
@@ -24,12 +26,12 @@ public class Ticket {
         this.ticketId = ticketId;
     }
 
-    public Seat getSeat() {
-        return seat;
+    public int getSeatRow() {
+        return seatRow;
     }
 
-    public void setSeat(Seat seat) {
-        this.seat = seat;
+    public int getSeatCol() {
+        return seatCol;
     }
 
     public Movie getMovie() {
