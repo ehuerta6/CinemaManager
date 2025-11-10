@@ -35,9 +35,11 @@ public class RoomView {
             System.out.println("No movies scheduled in this room.");
         } else {
             for (Movie movie : movies) {
-                System.out.println("Title: " + movie.getTitle()
-                        + " Duration: " + movie.getDuration() + " mins"
-                        + " Genre: " + movie.getGenre());
+                if (movie.getRoom().getRoomNumber() == room.getRoomNumber()) {
+                    System.out.println("Title: " + movie.getTitle()
+                            + " Duration: " + movie.getDuration() + " mins"
+                            + " Genre: " + movie.getGenre());
+                }
             }
         }
         System.out.println(Constants.LINES);

@@ -21,10 +21,16 @@ public class Constants {
     // Logger 
     public static final String LOGGER_FILE = "cinema_manager.txt";
 
-    // CSV 
-    public static final String MOVIE_CSV_FILE = "movies.csv";
-    public static final String CUSTOMER_CSV_FILE = "customers.csv";
-    public static final String EMPLOYEE_CSV_FILE = "employees.csv";
-    public static final String ROOM_CSV_FILE = "rooms.csv";
+    // Data CSV 
+    public static final String MOVIE_CSV_FILE = "data/movies.csv";
+    public static final String CUSTOMER_CSV_FILE = "data/customers.csv";
+    public static final String EMPLOYEE_CSV_FILE = "data/employees.csv";
+    public static final String ROOM_CSV_FILE = "data/rooms.csv";
+
+    // Updated CSV
+    public static final String MOVIE_CSV_FILE_UPDATED = "logs/movies_updated.csv";
+    public static final String CUSTOMER_CSV_FILE_UPDATED = "logs/customers_updated.csv";
+    public static final String EMPLOYEE_CSV_FILE_UPDATED = "logs/employees_updated.csv";
+    public static final String ROOM_CSV_FILE_UPDATED = "logs/rooms_updated.csv";
 
 }
