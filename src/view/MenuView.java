@@ -1,5 +1,6 @@
 package view;
 
+import service.Logger;
 import utils.Constants;
 
 public class MenuView {
@@ -14,6 +15,8 @@ public class MenuView {
         System.out.println("6. Manage Movies");
         System.out.println("7. Logout");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("Admin menu displayed");
     }
 
     public void showAdminUserMenu() {
@@ -25,6 +28,8 @@ public class MenuView {
         System.out.println("5. Delete User");
         System.out.println("6. Back to Admin Menu");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("Admin user menu displayed");
     }
 
     public void showAdminRoomMenu() {
@@ -36,6 +41,8 @@ public class MenuView {
         System.out.println("5. Delete Room");
         System.out.println("6. Back to Admin Menu");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("Admin room menu displayed");
     }
 
     public void showAdminMovieMenu() {
@@ -47,6 +54,8 @@ public class MenuView {
         System.out.println("5. Delete Movie");
         System.out.println("6. Back to Admin Menu");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("Admin movie menu displayed");
     }
 
     public void showCustomerMenu() {
@@ -57,6 +66,8 @@ public class MenuView {
         System.out.println("4. View Purchase History");
         System.out.println("5. Logout");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("Customer menu displayed");
     }
 
     public void showCustomerMovieMenu() {
@@ -65,6 +76,8 @@ public class MenuView {
         System.out.println("2. Search Movie by ID");
         System.out.println("3. Back to Customer Menu");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("Customer movie menu displayed");
     }
 
     public void showCustomerRoomsMenu() {
@@ -73,6 +86,8 @@ public class MenuView {
         System.out.println("2. Search Room by Number");
         System.out.println("3. Back to Customer Menu");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("Customer rooms menu displayed");
     }
 
     public void showCustomerSeatingMenu() {
@@ -83,6 +98,8 @@ public class MenuView {
         System.out.println("4. Cancel Booking");
         System.out.println("5. Back to Customer Menu");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("Customer seating menu displayed");
     }
 
     public void showUserMenu() {
@@ -91,5 +108,7 @@ public class MenuView {
         System.out.println("2. Login as Customer");
         System.out.println("3. Exit");
         System.out.println(Constants.LINES);
+
+        Logger.getInstance().info("User menu displayed");
     }
 }
