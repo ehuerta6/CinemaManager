@@ -1,11 +1,13 @@
 package model;
 
+import utils.EmployeePosition;
+
 public class Employee extends User {
 
-    private String position;
+    private EmployeePosition position;
     private double salary;
 
-    public Employee(int id, String name, String email, String password, String position, double salary, double balance) {
+    public Employee(int id, String name, String email, String password, EmployeePosition position, double salary, double balance) {
         super(id, name, email, password, balance);
         this.position = position;
         this.salary = salary;
@@ -15,11 +17,11 @@ public class Employee extends User {
         this.setBalance(this.getBalance() + this.salary);
     }
 
-    public String getPosition() {
+    public EmployeePosition getPosition() {
         return position;
     }
 
-    public void setPosition(String position) {
+    public void setPosition(EmployeePosition position) {
         this.position = position;
     }
 

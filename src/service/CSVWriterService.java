@@ -1,5 +1,5 @@
-package utils;
+package service;
 
-public class CSVWriter {
+public class CSVWriterService {
 
 }

@@ -2,8 +2,8 @@ package view;
 
 import java.util.List;
 import model.Ticket;
+import service.Logger;
 import utils.Constants;
-import utils.Logger;
 
 public class TicketView {
 

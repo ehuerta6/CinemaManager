@@ -3,8 +3,8 @@ package view;
 import java.util.List;
 import model.Movie;
 import model.Seat;
+import service.Logger;
 import utils.Constants;
-import utils.Logger;
 
 public class MovieView {
 
